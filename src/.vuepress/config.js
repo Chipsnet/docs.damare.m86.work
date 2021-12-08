@@ -31,11 +31,11 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: '最終更新',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'セットアップ',
+        link: '/setup/',
       },
       {
         text: 'Config',
@@ -47,6 +47,16 @@ module.exports = {
       }
     ],
     sidebar: {
+        '/setup/': [
+            {
+                title: 'セットアップ',
+                collapsable: false,
+                children: [
+                    '',
+                    'softalk',
+                ]
+            }
+        ],
       '/guide/': [
         {
           title: 'Guide',

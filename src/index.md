@@ -9,7 +9,7 @@ features:
   details: あなたのPCで動く読み上げBot。だからプライバシーも安心。
 - title: マルチプラットフォーム対応 
   details: Windows, Linux, Macで動くから、あなたがMacでも大丈夫。 
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: 軽量
+  details: 無駄な機能は実装していないので、驚くほど軽量です。
 footer: Made by 巳波みなと with ❤️
 ---
