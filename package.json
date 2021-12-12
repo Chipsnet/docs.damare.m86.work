@@ -10,10 +10,12 @@
   "repository": "/docs.damare.m86.work",
   "scripts": {
     "dev": "vuepress dev src",
+    "dev:demon": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev src",
     "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
+    "nodemon": "^2.0.15",
     "vuepress": "^1.5.3"
   }
 }
