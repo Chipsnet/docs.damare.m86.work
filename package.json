@@ -1,21 +1,14 @@
 {
-  "name": "docs.damare.m86.work",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "authors": {
-    "name": "",
-    "email": ""
-  },
-  "repository": "/docs.damare.m86.work",
+  "name": "docs",
+  "version": "1.0.0",
   "scripts": {
-    "dev": "vuepress dev src",
-    "dev:demon": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^2.0.15",
-    "vuepress": "^1.5.3"
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.11.1",
+    "nuxt": "^2.15.8"
   }
 }
