@@ -2,7 +2,7 @@
 title: セットアップ手順 
 description: '限界大会公式ドキュメント、wiki.genkai.workへようこそ！'
 category: Windows
-position: 1
+position: 2
 version: 1
 fullscreen: false
 items:
@@ -61,13 +61,67 @@ Botを動かすためにはToken（トークン）というものをDiscordか�
 取得方法は以下の記事を参考にしてください。      
 https://cod-sushi.com/discord-py-token/
 
-## 音声合成エンジンを選択する
+## Botのファイルをダウンロードする
 
-Damareは、様々な場面で利用できるように、音声合成エンジンを選択できるようになっています。
+Gitを使用して、Bot本体をダウンロードします。
 
-現在利用可能なのは以下の2つです。
+Botのファイルを置きたい場所で
 
-- Softalk
-    - セットアップがとても簡単だが遅延がすこしある。カスタマイズ性もあまりない。
-- OpenJTalk
-    - セットアップが難しいが低遅延。カスタマイズがかなり豊富にできる。
+```powershell
+git clone https://github.com/Chipsnet/damare.git
+```
+
+を実行します。
+
+## 音声合成エンジンのセットアップ
+
+Damareでは、2つの合成音声エンジンから選択して使うことができます。       
+どちらも無料で利用できますが、セットアップの難易度やカスタマイズ性に違いがあります。
+
+### Softalk
+
+所謂「ゆっくりボイス」を生成できるソフトウェアです。        
+セットアップは簡単ですが、カスタマイズ性があまりありません。
+
+気軽に使いたい方におすすめです。
+
+<details><summary>セットアップ方法を確認する</summary>
+
+## Softalkをダウンロードする
+
+VectorのSoftalkのページへアクセスし、Softalkをダウンロードします。
+
+http://www.vector.co.jp/soft/winnt/art/se412443.html
+
+![](https://i.gyazo.com/d25dee33364ffa6ac2679190fcd71522.png)
+
+ダウンロードしたSoftalkを解凍し、でてきた`softalk`フォルダを`damare`のフォルダに入れます
+
+![](https://i.gyazo.com/a0ad5e4413e63765eb46a1597fa34dce.jpg)
+
+## Softalkを設定する
+
+Softalkのフォルダに入っている `SofTalk.exe` を実行して、Softalkを起動します。
+
+次に`オプション`から`環境変数`を開きます。
+
+![](https://i.gyazo.com/a19435f44264640bbc57a80038a4922d.png)
+
+`録音`タブを開き、`録音時は読み上げを省略する`にチェックを入れます。
+
+以上の設定ができたら、Softalkを終了します。
+
+</details>
+
+### OpenJTalk
+
+Softalkよりも流暢な音声を生成できますが、セットアップが少しむずかしいです。     
+カスタマイズ性に優れており、htsvoiceを差し替えることで別の音声に変更ができます。
+
+<details><summary>セットアップ方法を確認する</summary>
+
+現在作成中です
+
+</details>
+
+## Configファイルの作成
