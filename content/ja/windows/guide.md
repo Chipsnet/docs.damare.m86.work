@@ -2,7 +2,7 @@
 title: セットアップ手順 
 description: '限界大会公式ドキュメント、wiki.genkai.workへようこそ！'
 category: Windows
-position: 2
+position: 3
 version: 1
 fullscreen: false
 items:
@@ -125,3 +125,54 @@ Softalkよりも流暢な音声を生成できますが、セットアップが�
 </details>
 
 ## Configファイルの作成
+
+![](https://i.gyazo.com/0aa51c8cfa7735e0462f1ed9d206f836.png)
+
+`damare` のフォルダに `config.yml` を作成して、中身を以下のようにします。
+
+```yml
+token: 取得したDiscord Token
+useguild: 使用するDiscordサーバーのguild Id
+prefix: prefix
+voiceclient: softalk = 1, openjtalk = 2
+```
+
+### token
+
+[Discord Bot Tokenを取得する](#discord-bot-tokenを取得する)で取得したTokenを入力します。
+
+### useguild
+
+使用するDiscordサーバーのguild Id(サーバーID)を入力します。     
+取得方法は[公式ガイド](https://support.discord.com/hc/ja/articles/206346498-%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC-%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC-%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8ID%E3%81%AF%E3%81%A9%E3%81%93%E3%81%A7%E8%A6%8B%E3%81%A4%E3%81%91%E3%82%89%E3%82%8C%E3%82%8B-)を御覧ください。
+
+### prefix
+
+コマンドの前に付く識別子です。      
+例えばprefixに `;` を選ぶと、喋り始めるコマンドは `;talk` になります。
+
+### voiceclient
+
+使用する音声合成エンジンを選択します。      
+Softalkを使う場合は`1`を、openjtalkを使う場合は`2`を入力します。
+
+## 起動する
+
+`damare` のフォルダで次のコマンドを実行します。
+
+```powershell
+yarn install
+```
+
+これで実行に必要なファイルが自動ダウンロードされます。      
+そして
+
+```powershell
+yarn start
+```
+
+で起動します。
+
+## アップデートする
+
+[こちら](/guide/update)を御覧ください。
