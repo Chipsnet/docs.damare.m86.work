@@ -120,7 +120,16 @@ Softalkよりも流暢な音声を生成できますが、セットアップが�
 
 <details><summary>セットアップ方法を確認する</summary>
 
-現在作成中です
+## OpenJTalkのセットアップ
+
+以下の記事を参考に、OpenJTalkをセットアップします。     
+https://qiita.com/mkgask/items/0bf9c26dc96e7b0b45ac
+
+なお、hts_voiceと辞書データ（dic）に関しては、damare本体に同梱されているためセットアップの必要はありません。
+
+OpenJTalkは `open_jtalk` コマンドで実行できるようにパスを通してください。
+
+以上でセットアップは完了です。
 
 </details>
 
