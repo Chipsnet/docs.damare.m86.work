@@ -27,4 +27,8 @@ Damareとはなんぞや？という方はまずは[公式サイト](https://dam
 
 ## コマンドリスト
 
+[こちらのドキュメント](/guide/commands.md)を参照してください。
+
 ## 支援
+
+[damare公式HP](https://damare.m86.work)より確認できます。
