@@ -6,29 +6,25 @@ version: 1
 fullscreen: false
 ---
 
-このページは、Discord向けチャット読み上げBot **「Damare」** のドキュメントサイトです。      
+このページは、Discord向けチャット読み上げBot **Damare** のドキュメントサイトです。      
 セットアップ方法や使い方などを説明するドキュメントを設置しています。
 
 Damareとはなんぞや？という方はまずは[公式サイト](https://damare.m86.work/)を御覧ください。
 
 ## セットアップ方法
 
-### Windows
-
-[こちらのドキュメント](/windows/guide)に従ってセットアップを行ってください。
-
-### MacOS
-
-現在ドキュメントを整備中です🙁
-
-### Linux
-
-現在ドキュメントを整備中です🤕
+- [Windows](/windows/guide)
+- MacOS
+- Linux
 
 ## コマンドリスト
 
 [こちらのドキュメント](/guide/commands.md)を参照してください。
 
+## アップデート方法
+
+[こちらのドキュメント](/guide/update)を参照してください。
+
 ## 支援
 
-[damare公式HP](https://damare.m86.work)より確認できます。
+[Damare公式HP](https://damare.m86.work)より確認できます。
